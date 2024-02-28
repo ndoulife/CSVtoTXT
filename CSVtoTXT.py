@@ -26,7 +26,7 @@ CPF_column = CPF_column.drop_duplicates().apply(lambda x: str(x).zfill(11))
 file_name = 'doc'
 
 # Building the full path of the TXT file
-file_path = f'C:\\Users\\gle\\Downloads\\{file_name}.txt'
+file_path = f'C:\\Users\\name\\Downloads\\{file_name}.txt'
 
 # Saving CPFs to the TXT file without the last line break after the last CPF
 with open(file_path, 'w') as f:
